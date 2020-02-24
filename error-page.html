@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Error Page</title>
+    <style>
+        body{
+            background: #f8b0da;
+            padding: 5vh;
+            height: 85vh;
+        }
+        @font-face{
+            font-family: rancho;
+            src:url(fonts/Rancho-Regular.ttf)
+        }
+        @font-face{
+            font-family: heebo;
+            src:url(fonts/Heebo-Regular.ttf)
+        }
+        .text a{
+            font-family: heebo;
+            line-height: 40px;
+            text-decoration: none;
+            font-size: 25px;
+        }
+        .text a.num{
+            color: #000;
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 2px 20px;
+        }
+        .text a.error{
+            color: #fff;
+        }
+        .image{
+            text-align: center;
+            margin-top: 30px;
+        }
+        .big-num{
+            position: relative;
+            bottom: 370px;
+            text-align: center;
+        }
+        .big-num h1{
+            font-size: 100px;
+        }
+        .msg{
+            position: relative;
+            bottom: 250px;
+            text-align: center;
+        }
+        .msg h1{
+            font-family: rancho;
+            font-size: 50px;
+            font-weight: 100;
+        }
+        .msg{
+            font-family: heebo;
+        }
+    </style>
+</head>
+<body>
+    <div class="text">
+        <a href="javascript:void(0)" class="num">404</a>
+        <a href="javascript:void(0)" class="error">Company Name</a>
+    </div>
+    <div class="image">
+        <img src="images/error.png" alt="error-image">
+    </div>
+    <div class="big-num">
+        <h1>404</h1>
+    </div>
+    <div class="msg">
+        <h1>Oops, you've encountered an error!</h1>
+        <p>Looks like the page you are trying to visit doesn't exist.</p>
+    </div>
+</body>
+</html>

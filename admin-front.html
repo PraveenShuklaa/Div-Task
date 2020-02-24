@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>front page</title>
+    <link rel="stylesheet" href="file:///C:/Users/Praveen/Desktop/DUCAT_UI/Icons/fontawesome-free-5.12.0-web/css/all.min.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: alice;
+            font-weight: 100;
+        }
+        @font-face{
+            font-family: Alice;
+            src:url(fonts/Alice-Regular.ttf)
+        }
+        header{
+            background-color: #7fffd4;
+            position: relative;
+            float: left;
+            width: 100%;
+            padding: 5px 10px;
+        }
+        .fl{
+            float: left;
+        }
+        .fr{
+            float: right;
+        }
+        .clr{
+            clear: both;
+        }
+        .logo img{
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+        }
+        .mid{
+            text-align: center;
+            padding: 14px;
+        }
+        .mid h1{
+            color: #c10000;
+        }
+        .right{
+            position: absolute;
+            right: 0;
+            bottom: 12px;
+        }
+        ul a{
+            text-decoration: none;
+        }
+        .right ul a li{
+            display: inline;
+            padding: 10px;
+            font-size: 22px;
+        }
+        ul a li:hover{
+            padding: 12px;
+            background-color: #4fe7b4d5;
+            text-decoration: underline;
+        }
+        ul a li i.fas{
+            margin-right: 5px;
+            font-size: 20px;
+        }
+        .sidebar{
+            width: 190px;
+            height: 100vh;
+            background-color: aquamarine;
+            position: fixed;
+            /*left: 0px;
+            top: 114px;*/
+        }
+        .sidebar ul a li{
+            display: block;
+            font-size: 20px;
+            line-height: 40px;
+            list-style-type: none;
+        }
+        .sidebar ul a li:hover{
+            padding: 2px;
+            background-color: #4fe7b4d5;
+            text-decoration: underline;
+        }
+        .sidebar ul a li i{
+            margin: 0px 10px;
+        }
+        .follow{
+            text-align: center;
+            position: relative;
+            bottom: 0;
+            padding: 15px;
+            font-size: 25px;
+        }
+        .follow a i{
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo fl">
+            <img src="images/images.png">
+        </div>
+        <div class="mid fl">
+            <h1>UTTAR PRADESH <br>Tourism</h1>
+        </div> 
+        <div class="right fr">
+            <ul>
+                <a href="javascipt:void(0)"><li><i class="fas fa-home"></i>Home</li></a>
+                <a href="javascipt:void(0)"><li><i class="fas fa-cogs"></i>Setting</li></a>
+                <a href="javascipt:void(0)"><li><i class="fas fa-sign-out-alt"></i>Sign out</li></a>
+            </ul>
+        </div>
+    </header>
+    <div class="clr"></div>
+    <div class="sidebar">
+        <ul>
+            <a href="javascipt:void(0)"><li><i class="far fa-address-card"></i>View Details</li></a>
+            <a href="javascipt:void(0)"><li><i class="fas fa-user-plus"></i>Add User</li></a>
+            <a href="javascipt:void(0)"><li><i class="fas fa-folder"></i>Notes</li></a>
+            <a href="javascipt:void(0)"><li><i class="fas fa-folder-plus"></i>Add Notes</li></a>
+            <a href="javascipt:void(0)"><li><i class="fab fa-firstdraft"></i>Drafts</li></a>
+            <a href="javascipt:void(0)"><li><i class="fas fa-folder-minus"></i>Remove Notes</li></a>
+            <a href="javascipt:void(0)"><li><i class="fas fa-comment-alt"></i>Comments</li></a>
+            <a href="javascipt:void(0)"><li><i class="fas fa-bell"></i>Notifications</li></a>
+            <a href="javascipt:void(0)"><li><i class="fas fa-search"></i>Search</li></a>
+            <a href="javascipt:void(0)"><li><i class="fas fa-cogs"></i>Setting</li></a>
+        </ul>
+        <div class="follow">
+            <h3>Join us on:-</h3>
+            <a href="javascript:void(0)"><i class="fab fa-facebook-square"></i></a>
+            <a href="javascript:void(0)"><i class="fab fa-twitter-square"></i></a>
+            <a href="javascript:void(0)"><i class="fab fa-linkedin"></i></a>
+            <a href="javascript:void(0)"><i class="fab fa-whatsapp"></i></a>
+        </div>
+    </div>
+</body>
+</html>
